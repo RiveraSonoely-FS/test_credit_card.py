@@ -3,7 +3,7 @@
 
 Welcome!
 
-Add this command to the terminal 'python3 -m unittest test_credit_card.py' to run tests.
+Add this command to the terminal 'python3 test_credit_card.py' to run tests.
 
 you should get 'Ran 8 tests in 0.000s
 
