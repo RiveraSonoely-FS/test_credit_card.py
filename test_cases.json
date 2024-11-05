@@ -1,0 +1,45 @@
+{
+    "tests": [
+      {
+        "test_case": "test_valid_credit_card_12_digits",
+        "input": "123456789012",
+        "expected_output": "********9012"
+      },
+      {
+        "test_case": "test_valid_credit_card_13_digits",
+        "input": "1234567890123",
+        "expected_output": "*********0123"
+      },
+      {
+        "test_case": "test_valid_credit_card_14_digits",
+        "input": "12345678901234",
+        "expected_output": "**********1234"
+      },
+      {
+        "test_case": "test_valid_credit_card_15_digits",
+        "input": "123456789012345",
+        "expected_output": "***********2345"
+      },
+      {
+        "test_case": "test_valid_credit_card_16_digits",
+        "input": "1234567890123456",
+        "expected_output": "************3456"
+      },
+      {
+        "test_case": "test_invalid_credit_card_too_short",
+        "input": "12345",
+        "expected_output": "Invalid Credit Card"
+      },
+      {
+        "test_case": "test_invalid_credit_card_too_long",
+        "input": "12345678901234567",
+        "expected_output": "Invalid Credit Card"
+      },
+      {
+        "test_case": "test_invalid_credit_card_empty",
+        "input": "",
+        "expected_output": "Invalid Credit Card"
+      }
+    ]
+  }
+  
